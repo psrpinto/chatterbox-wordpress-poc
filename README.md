@@ -37,7 +37,7 @@ Then serve the `target/` directory (requires Python 3):
 make serve
 ```
 
-You can now visit the site at http://localhost:3001.
+You can now visit http://localhost:3001, which renders the built version of Chatterbox in a test site. By *Built version* we mean "pure" JavaScript and other assets, without the need for additional tooling (i.e. don't require `vite`).
 
 ## Testing
 Chatterbox comes with a suite of integration tests, using cypress.
