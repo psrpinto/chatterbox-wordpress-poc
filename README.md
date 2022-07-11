@@ -21,8 +21,16 @@ This is preconfigured to use matrix-env. If you wish to use another homeserver, 
 Build chatterbox into the `target/` directory:
 
 ```shell
-yarn build
+make build
 ```
+
+Then serve that directory (requires Python 3):
+
+```shell
+make serve
+```
+
+You can now visit the site at http://localhost:3001.
 
 ## Testing
 Chatterbox comes with a suite of integration tests, using cypress.
