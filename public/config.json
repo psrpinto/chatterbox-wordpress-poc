@@ -1,5 +1,5 @@
 {
-    "homeserver": "https://your-homeserver.com",
+    "homeserver": "http://matrix.test:8008",
     "auto_join_room": "Internal matrix id of the room",
     "username_prefix": "foobar",
     "header": {
@@ -11,7 +11,7 @@
         "matrix_link": "https://matrix.org"
     },
     "token": "Valid Token to be used with Token Authenticated Registration",
-    "invite_user": "@botuser:your-homeserver.com",
+    "invite_user": "@admin:matrix.test",
     "encrypt_room": false,
     "avatar": "https://link_to_avatar/avatar.png",
     "disable_composer_until_operator_join": true
