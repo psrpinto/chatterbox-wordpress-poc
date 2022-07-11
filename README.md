@@ -1,6 +1,6 @@
 Chatterbox + WordPress POC
 ==========================
-A Proof-Of-Concept for embedding [Chatterbox](https://github.com/vector-im/chatterbox) in a WordPress site.
+A Proof-Of-Concept for embedding [Chatterbox](https://github.com/vector-im/chatterbox) in a WordPress site, with a homeserver provided by [matrix-env](https://github.com/Automattic/matrix-env).
 
 ## Initial setup
 Clone the repo:
@@ -24,7 +24,14 @@ Build chatterbox into the `target/` directory:
 make build
 ```
 
-Then serve that directory (requires Python 3):
+Start matrix-env:
+
+```shell
+cd /path/to/matrix-env
+docker compose up
+```
+
+Then serve the `target/` directory (requires Python 3):
 
 ```shell
 make serve
